@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Services from "../components/sections/Services.astro";
+import About from "../components/sections/About.astro";
+import Hero from "../components/sections/Hero.tsx";
+import Bonus from "../components/sections/Bonus.tsx";
+import Cases from "../components/sections/Cases.astro";
+---
+
+<Layout title="Юридические услуги" xmlns="">
+    <Hero client:load />
+    <About />
+    <Services />
+    <Cases />
+    <Bonus />
+
+</Layout>
+

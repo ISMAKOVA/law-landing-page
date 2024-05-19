@@ -1,0 +1,19 @@
+
+---
+import { Image } from 'astro:assets';
+import bg from '../../assets/pic_law.jpg';
+
+---
+
+    <div class="h-80 w-full text-white flex flex-row justify-center items-center gap-12 font-serif relative">
+        <div class="z-20 absolute flex flex-row items-center">
+            <p class="text-9xl mr-10">657</p>
+            <p class="text-4xl ">Решенных кейсов</p>
+        </div>
+        <div class="z-10 absolute w-full h-80 backdrop-blur-sm bg-accent/20"></div>
+        <Image
+            src={bg}
+            alt="A local image in SSR mode"
+            class="h-80 object-cover"
+        />
+    </div>
